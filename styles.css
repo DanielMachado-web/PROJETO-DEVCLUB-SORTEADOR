@@ -47,7 +47,7 @@ input{
     margin-right: 62px;
 }
 
-.btn-sortear{
+button{
     background: #AEC346;
     border: 1px solid rgba(174, 195, 70, 0.192);
     border-radius: 10px;
@@ -62,12 +62,12 @@ input{
     margin-top: 20px;
 }
 
-.btn-sortear:hover{
+button:hover{
     background: #AEC346;
     opacity: 0.8;
 }
 
-.btn-sortear:active{
+button:active{
     background: #AEC346;
     opacity: 0.6;
 }
