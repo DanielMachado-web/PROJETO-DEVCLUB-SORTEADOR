@@ -5,6 +5,21 @@ function generateNumber() {
 
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
+    if (min >= max) {
+        alert("O valor mínimo deve ser menor que o valor máximo.");
+      
+    } else{
+        const result = Math.floor(Math.random() * (max - min + 1)) + min;
+        alert(result);    
+    }
+
+
+   console.log(randomNumber);
+
+
+
+
+
     console.log(randomNumber);
 
     console.log(min, max);
