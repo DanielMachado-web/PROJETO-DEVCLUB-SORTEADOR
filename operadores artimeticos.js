@@ -24,10 +24,30 @@ b--; // 5
  */
 
 
-const result=2
+let result = 20
 
-console.log(result + 2); // Adição
-console.log(result - 2); // Subtração   
+result++    /*incrementa o valor de result em 1, result agora é 21 */
+result--    /*decrementa o valor de result em 1, result agora é 20 */
+result += 5 /*adiciona 5 ao valor de result, result agora é 25 */
+result++
+result++
 
-console.log(result * 2); // Multiplicação
-console.log(result / 2); // Divisão
+console.log(result++)
+
+/* let result = 2**3 */
+
+console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+/*Operação de Atribuição */
+
